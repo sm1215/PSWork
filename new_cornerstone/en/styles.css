@@ -1,0 +1,199 @@
+/* Misc Apply-to-All Styles */
+body{
+	background:url(images/bg.jpg) center center repeat fixed;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+.clearfix{
+	clear: both;
+	float: none;
+}
+
+/* Framework Styles */
+
+#wrapper{
+	width: 100%;
+	padding: 0;
+}
+
+#header{
+	position: fixed;
+	display: block;
+	width:100%;
+	height: 145px;
+	background-color: #000;
+	background: url(images/header-bg.jpg) repeat-x fixed;
+}
+
+#header_controls{
+	display: block;
+	width:100%;
+	max-width:960px;
+	margin: 5px auto;
+}
+
+.user_controls{
+	display: inline-block;
+	height:20px;
+	width:300px;
+	float:right;
+}
+.user_controls img{
+	margin-right:3px;
+}
+
+.user_controls li{
+	margin:0 10px;
+	float:left;
+}
+
+.localization_controls{
+	display: inline-block;
+	height:20px;
+	width:400px;
+	float: left;
+}
+
+.localization_controls li{
+	margin: 0 10px;
+	float: left;
+}
+
+.localization_controls form{
+	margin-left: 5px;
+	float:right;
+}
+
+.header_messages li{
+	margin:0 20px;
+	float:right;
+}
+
+.header_messages form{
+	float:right;
+	margin-left:5px;
+}
+
+.logo{
+	display: block;
+	width: 100%;
+	max-width: 275px;
+	margin: 0 auto;
+}
+
+#main{
+	position: relative;
+	top:225px;
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+#footer{
+	width:100%;
+	display: block;
+}
+
+.col-280,
+.col-320,
+.col-600,
+.col-640{
+	float:left;
+	overflow:hidden;
+	padding:10px;
+	background: url(images/transparent-bg.png) center center repeat scroll;
+}
+
+.col-280{
+	width:260px;
+}
+
+.col-320{
+	width:300px;
+	margin-right:40px;
+}
+
+.col-600{
+	width:580px;
+}
+
+.col-640{
+	width:620px;
+}
+
+.login{
+	float:none;
+	clear: both;
+	margin:0 auto;
+}
+
+.login table{
+	border-collapse: separate;
+	border-spacing: 0px 6px;
+}
+
+.login table .header td{
+	border-bottom:#999 1px solid;
+	padding-bottom: 5px;
+}
+
+.login table td{
+	width:200px;
+	margin-right:40px;
+}
+
+.login label,
+.login table td label,
+.login table td input{
+	float: right;
+}
+
+.login hr{
+	margin:10px 0;
+	clear:both;
+}
+
+.logout{
+	float:none;
+	width:260px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+/* Text Styles */
+/* general catch-all text */
+a, p, li, label{
+	font-family: arial;
+	color:#fff;
+	font-size: .8em;
+	line-height:1.2em;
+}
+
+h1{
+	font-family: arial;
+	font-size: 1.4em;
+	letter-spacing:.01em;
+	line-height: 1.6em;
+	color:#fff;
+}
+
+a{
+	font-family: arial;
+	color:#ccc;
+	text-decoration: none;
+	line-height: 1.4em;
+}
+
+a:hover{
+	color:#fff;
+
+}
+
+.error{
+	color:#f00;
+}
+
